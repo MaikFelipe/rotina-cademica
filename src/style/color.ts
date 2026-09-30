@@ -15,9 +15,9 @@ export const colors  = {
     },
 
     background: {
-    gray: "#E7E7F3",
-    red: "#FFD8CD",
-    green: "#6BFF8F",
+        gray: "#E7E7F3",
+        red: "#FFD8CD",
+        green: "#6BFF8F",
 },
 
     border: "#C3C6D7",
