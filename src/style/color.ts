@@ -10,16 +10,16 @@ export const colors  = {
 
     text: {
         primary: "#191B23",
-        gray: "#434655",
+        secondary: "#434655",
         green: "#007432", 
     },
-
     background: {
+        primary: "#FAF8FF",
         gray: "#E7E7F3",
         red: "#FFD8CD",
         green: "#6BFF8F",
-},
-
+        blue: "#EDEDF9",
+    },
     border: "#C3C6D7",
     info: "#2563EB",
 };
