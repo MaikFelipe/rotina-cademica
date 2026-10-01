@@ -8,6 +8,7 @@ import { useFonts,
 import { Loading } from "../components/Loading";
 import { View, Text } from "react-native";
 
+
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
     Manrope_300Light,
@@ -28,7 +29,7 @@ export default function RootLayout() {
       </View>
     )
   }
-
+  
   return (
     <Stack screenOptions={{
       headerShown: false,

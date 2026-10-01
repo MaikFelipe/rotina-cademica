@@ -3,6 +3,7 @@ import { router } from "expo-router";
 import { Button, Platform, StyleSheet, Text, View } from "react-native";
 import {styles} from "@/screens/index-style";
 
+
 export default function Index() {
   return (
     <View style={styles.container}>
