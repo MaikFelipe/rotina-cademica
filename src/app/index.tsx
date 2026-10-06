@@ -2,6 +2,7 @@
 import { router } from "expo-router";
 import { Button, Platform, StyleSheet, Text, View } from "react-native";
 import {styles} from "@/screens/index-style";
+import { SummaryCard } from "@/components/SummaryCard";
 
 
 export default function Index() {
@@ -13,6 +14,7 @@ export default function Index() {
           <Text style={styles.title}>Olá, estudante!</Text>
           <Text style={styles.subtitle}>Organize sua rotina acadêmica</Text>
         </View>
+        <SummaryCard />
       </View>
     </View>
   );
