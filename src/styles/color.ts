@@ -1,5 +1,4 @@
 
-import { Background } from "expo-router/build/react-navigation";
 
 
 export const colors  = {

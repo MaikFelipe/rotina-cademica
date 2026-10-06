@@ -1,7 +1,7 @@
 
-import { View, Text } from "react-native";
+import { colors } from "@/styles/color";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
-import { colors } from "@/style/color";
+import { Text, View } from "react-native";
 import { styles } from "./styles";
 
 export function SummaryCard() {

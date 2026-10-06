@@ -1,8 +1,8 @@
 
-import { View, Text, StyleSheet, Platform } from "react-native";
-import { colors } from "@/style/color";
-import { fontFamily } from "@/style/fontFamily";
-import { textSize } from "@/style/textSize";
+import { colors } from "@/styles/color";
+import { fontFamily } from "@/styles/fontFamily";
+import { textSize } from "@/styles/textSize";
+import { Platform, StyleSheet } from "react-native";
 
 
 export const styles = StyleSheet.create({

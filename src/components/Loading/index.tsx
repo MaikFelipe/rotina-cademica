@@ -1,5 +1,5 @@
 
-import { colors } from "@/style/color";
+import { colors } from "@/styles/color";
 import { ActivityIndicator } from "react-native";
 
 

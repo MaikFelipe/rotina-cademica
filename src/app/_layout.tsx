@@ -1,12 +1,14 @@
 
+import {
+  Manrope_300Light,
+  Manrope_400Regular,
+  Manrope_500Medium,
+  Manrope_600SemiBold,
+  useFonts,
+} from "@expo-google-fonts/manrope";
 import { Stack } from "expo-router";
-import { useFonts,
-   Manrope_300Light,
-    Manrope_400Regular,
-    Manrope_500Medium,
-    Manrope_600SemiBold, }from "@expo-google-fonts/manrope"
+import { Text, View } from "react-native";
 import { Loading } from "../components/Loading";
-import { View, Text } from "react-native";
 
 
 export default function RootLayout() {
@@ -35,7 +37,7 @@ export default function RootLayout() {
       headerShown: false,
     }}>
       <Stack.Screen name="index"/>
-      <Stack.Screen name="two-screen" />
+      <Stack.Screen name="(tabs)" />
     </Stack>
   );
 }
