@@ -1,5 +1,33 @@
+
+import { colors } from "@/styles/color";
+import { Button } from "@/components/button";
 import { View } from "react-native";
 
+
+function login() {
+    console.log("Quero ir para casa")
+}
+
+
 export default function Discipline() {
-    return <View></View>
+    return (
+        <View
+            style={{
+                marginTop: 100,
+                flex: 1,
+            }}
+        >
+            <View
+                style={{
+                    paddingHorizontal: 24,
+                }}
+            >
+                <Button 
+                    text="Salvar atividade" 
+                    color={colors.primary}
+                    onPress={login}
+                />
+            </View>
+        </View>
+    );
 }

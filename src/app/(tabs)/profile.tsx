@@ -1,5 +1,11 @@
+
 import { View } from "react-native";
 
-export default function Index() {
-    return <View></View>
+
+export default function Profile() {
+    return (
+        <View>
+            
+        </View>
+    );
 }

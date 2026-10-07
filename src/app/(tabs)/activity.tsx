@@ -1,5 +1,11 @@
+
 import { View } from "react-native";
 
+
 export default function Activity() {
-    return <View></View>
+    return (
+        <View>
+            
+        </View>
+    );
 }
